@@ -3,6 +3,7 @@ import io
 import json
 import requests
 import os
+import time
 
 def getAwesome(uri):
 	sess = requests.Session()
